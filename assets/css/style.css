@@ -1034,6 +1034,7 @@ section {
   text-align: center;
   padding: 30px 0;
 }
+
 @media screen and (min-width: 780px) {
   footer .foot1 {
     margin-left: 100px;
@@ -1410,36 +1411,45 @@ footer p a:hover {
   transition: right 0.3s ease;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+
 .wrapper.show {
   right: 20px;
 }
+
 .wrapper header {
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
+
 header i {
   color: #58bb41;
   font-size: 32px;
 }
+
 header h2 {
   color: #58bb41;
   font-weight: 500;
 }
+
 .wrapper .data {
   margin-top: 16px;
 }
+
 .wrapper .data p {
   color: #333;
   font-size: 16px;
 }
+
 .data p a {
   color: #58bb41;
   text-decoration: none;
 }
+
 .data p a:hover {
   text-decoration: underline;
 }
+
 .wrapper .buttons {
   margin-top: 16px;
   width: 100%;
@@ -1447,6 +1457,7 @@ header h2 {
   align-items: center;
   justify-content: space-between;
 }
+
 .buttons .button {
   border: none;
   color: #fff;
@@ -1457,15 +1468,197 @@ header h2 {
   width: calc(100% / 2 - 10px);
   transition: all 0.2s ease;
 }
+
 .buttons #acceptBtn:hover {
   background-color: #58bb41;
 }
+
 #declineBtn {
   border: 2px solid #58bb41;
   background-color: #fff;
   color: #58bb41;
 }
+
 #declineBtn:hover {
   background-color: #58bb41;
   color: #fff;
+}
+
+
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+form {
+  margin: 30px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #0000001a;
+  text-align: center;
+  width: 95vw;
+
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.page p {
+  margin-bottom: 10px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.button-group input[type="checkbox"] {
+  display: none;
+}
+
+.button-group label {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #58bb41;
+  border-radius: 5px;
+  background-color: #58bb41;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-group input[type="checkbox"]:checked+label {
+  background-color: #fff;
+  color: #58bb41;
+}
+
+.page button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #58bb41;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.page button:hover {
+  background-color: #20a403;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #58bb41;
+  width: 0%;
+  transition: width 0.3s;
+}
+
+.btn-option5 {
+  width: 200px;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.address-input {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 250px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.continue-button {
+  padding: 10px 20px;
+  background-color: #58bb41;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+  background-color: #20a403;
+}
+
+
+/* page 2 */
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.options input[type="radio"] {
+  display: none;
+}
+
+.options label {
+  width: 200px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.options label:hover {
+  background-color: #e0e0e0;
+}
+
+.options input[type="radio"]:checked + label {
+  background-color: #58bb41;
+  color: #fff;
+}
+
+.page4new .button{
+  width: 200px;
+}
+
+.input-text {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #page14 {
+      padding-left: 20%;
+      padding-right: 20%;
+  }
+}
+#page14 p{
+  font-weight: lighter;
 }
