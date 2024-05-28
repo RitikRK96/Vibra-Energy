@@ -26,7 +26,7 @@
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <link href="../assets/css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/css/form.css">
 
 
 </head>
@@ -82,7 +82,7 @@
 
     <div class="contain">
         <form action="https://api.web3forms.com/submit" method="POST" class="email-form" id="multipage-form">
-            <input type="hidden" name="access_key" value="3a70b6cf-fc01-47f3-afda-e57dd232ccba">
+            <input type="hidden" name="access_key" value="4171b53e-85e4-4d0a-adbb-a9037cf2df32">
             <h2>Check Your Eligibility For Funding</h2>
             <h4 style="padding: 10px;">Check Your Eligibility 👇</h4>
             <p style="font-weight: lighter; font-size: small;">See if you are eligible for a free grant</p>
@@ -144,103 +144,7 @@
                 <button type="button" onclick="nextPage()">Continue</button>
             </div>
 
-            <!-- Page 3 -->
             <div id="page3" class="page" style="display: none;">
-                <h4>Please select the type of property you have</h4>
-                <p>Please choose an option:</p>
-                <div class="button-group">
-                    <input type="checkbox" id="detached" name="property" value="Detached">
-                    <label for="detached" class="button">Detached</label>
-
-                    <input type="checkbox" id="semi-detached" name="property" value="Semi Detached">
-                    <label for="semi-detached" class="button">Semi Detached</label>
-
-                    <input type="checkbox" id="mid-terrace" name="property" value="Mid Terrace">
-                    <label for="mid-terrace" class="button">Mid Terrace</label>
-
-                    <input type="checkbox" id="end-terrace" name="property" value="End Terrace">
-                    <label for="end-terrace" class="button">End Terrace</label>
-
-                    <input type="checkbox" id="detached-bungalow" name="property" value="Detached Bungalow">
-                    <label for="detached-bungalow" class="button">Detached Bungalow</label>
-
-                    <input type="checkbox" id="semi-detached-bungalow" name="property" value="Semi Detached Bungalow">
-                    <label for="semi-detached-bungalow" class="button">Semi Detached Bungalow</label>
-
-                    <input type="checkbox" id="mid-terrace-bungalow" name="property" value="Mid Terrace Bungalow">
-                    <label for="mid-terrace-bungalow" class="button">Mid Terrace Bungalow</label>
-
-                    <input type="checkbox" id="end-terrace-bungalow" name="property" value="End Terrace Bungalow">
-                    <label for="end-terrace-bungalow" class="button">End Terrace Bungalow</label>
-
-                    <input type="checkbox" id="flat" name="property" value="Flat">
-                    <label for="flat" class="button">Flat</label>
-
-                    <input type="checkbox" id="park-home" name="property" value="Park Home">
-                    <label for="park-home" class="button">Park Home</label>
-
-                    <input type="checkbox" id="other-unsure" name="property" value="Other / Unsure">
-                    <label for="other-unsure" class="button">Other / Unsure</label>
-                </div>
-                <button type="button" onclick="nextPage()">Continue</button>
-            </div>
-
-            <!-- Page 4 -->
-            <div id="page4" class="page" style="display: none;">
-                <h4>What is the build type of your property?</h4>
-                <p>Please choose an option:</p>
-                <div class="button-group page4new">
-                    <div class="col">
-                        <div class="row-md-3">
-                            <input type="checkbox" id="cavity-wall" name="build-type" value="Cavity Wall">
-                            <label for="cavity-wall" class="button">Cavity Wall</label>
-                        </div>
-                        <div class="row-md-3">
-                            <input type="checkbox" id="solid-stone" name="build-type" value="Solid Stone">
-                            <label for="solid-stone" class="button">Solid Stone</label>
-                        </div>
-                        <div class="row-md-3">
-                            <input type="checkbox" id="timber-frame" name="build-type" value="Timber Frame">
-                            <label for="timber-frame" class="button">Timber Frame</label>
-                        </div>
-                        <div class="row-md-3">
-                            <input type="checkbox" id="other-not-sure" name="build-type" value="Other / Not Sure">
-                            <label for="other-not-sure" class="button">Other / Not Sure</label>
-                        </div>
-                    </div>
-                </div>
-                <button type="button" onclick="nextPage()">Continue</button>
-            </div>
-
-            <!-- Page 5 -->
-            <div id="page5" class="page" style="display: none;">
-                <h4>How many bedrooms does your property have?</h4>
-                <p>Please choose an option:</p>
-                <div class="button-group page4new">
-                    <div class="col">
-                        <div class="row-md-3">
-                            <input type="checkbox" id="1-bedroom" name="bedrooms" value="1 Bedroom">
-                            <label for="1-bedroom" class="button">1 Bedroom</label>
-                        </div>
-                        <div class="row-md-3">
-                            <input type="checkbox" id="2-bedrooms" name="bedrooms" value="2 Bedrooms">
-                            <label for="2-bedrooms" class="button">2 Bedrooms</label>
-                        </div>
-                        <div class="row-md-3">
-                            <input type="checkbox" id="3-bedrooms" name="bedrooms" value="3 Bedrooms">
-                            <label for="3-bedrooms" class="button">3 Bedrooms</label>
-                        </div>
-                        <div class="row-md-3">
-                            <input type="checkbox" id="4+-bedrooms" name="bedrooms" value="4+ Bedrooms">
-                            <label for="4+-bedrooms" class="button">4+ Bedrooms</label>
-                        </div>
-                    </div>
-                </div>
-                <button type="button" onclick="nextPage()">Continue</button>
-            </div>
-
-            <!-- Page 6 -->
-            <div id="page6" class="page" style="display: none;">
                 <h4>How do you currently heat your home?</h4>
                 <p>Please choose an option:</p>
 
@@ -265,44 +169,15 @@
 
                     <input type="checkbox" id="regular-boiler" name="heating-option" value="Regular Boiler">
                     <label for="regular-boiler" class="button">Regular Boiler</label>
+
+                    <input type="checkbox" id="Unknown" name="heating-option" value="Unknown">
+                    <label for="Unknown" class="button">Unknown</label>
                 </div>
 
                 <button type="button" onclick="nextPage()">Continue</button>
             </div>
 
-            <!-- Page 7 -->
-            <div id="page7" class="page" style="display: none;">
-                <p>What fuel type do you use to heat your home?</p>
-                <p>Please choose an option:</p>
-
-                <div class="button-group">
-                    <input type="checkbox" id="mains-gas" name="fuel-type" value="Mains Gas">
-                    <label for="mains-gas" class="button btn-option5">Mains Gas</label>
-
-                    <input type="checkbox" id="electric" name="fuel-type" value="Electric">
-                    <label for="electric" class="button btn-option5">Electric</label>
-
-                    <input type="checkbox" id="heating-oil" name="fuel-type" value="Heating Oil">
-                    <label for="heating-oil" class="button btn-option5">Heating Oil</label>
-
-                </div>
-                <div class="button-group">
-                    <input type="checkbox" id="kerosine" name="fuel-type" value="Kerosine">
-                    <label for="kerosine" class="button btn-option5">Kerosine</label>
-
-                    <input type="checkbox" id="solid-fuel" name="fuel-type" value="Solid Fuel">
-                    <label for="solid-fuel" class="button btn-option5">Solid Fuel</label>
-
-                    <input type="checkbox" id="other-fuel" name="fuel-type" value="Other / Unsure">
-                    <label for="other-fuel" class="button btn-option5">Other / Unsure</label>
-
-                </div>
-
-                <button type="button" onclick="nextPage()">Continue</button>
-            </div>
-
-            <!-- Page 8 -->
-            <div id="page8" class="page" style="display: none;">
+            <div id="page4" class="page" style="display: none;">
                 <p>Please select the benefits you currently receive</p>
                 <p>Please select all that apply:</p>
 
@@ -342,13 +217,15 @@
 
                     <input type="checkbox" id="other-benefit" name="benefit" value="Other">
                     <label for="other-benefit" class="button">Other</label>
+
+                    <input type="checkbox" id="Nothing" name="benefit" value="Nothing">
+                    <label for="Nothing" class="button">Nothing</label>
                 </div>
 
                 <button type="button" onclick="nextPage()">Continue</button>
             </div>
 
-            <!-- Page 9 -->
-            <div id="page9" class="page" style="display: none;">
+            <div id="page5" class="page" style="display: none;">
                 <p class="question">What is the address of your property?</p>
 
                 <div class="address-input">
@@ -359,53 +236,36 @@
 
                 <button type="button" onclick="nextPage()" class="continue-button">Continue</button>
             </div>
-            <!-- page 10 -->
-            <div id="page10" class="page" style="display: none;">
+
+            <div id="page6" class="page" style="display: none;">
                 <strong>
                     <h3>About You</h3>
                 </strong>
                 <p>What's your name?</p>
-                <div class="address-input">
-                    <input type="text" id="first-name" name="first-name" placeholder="First name">
-                    <input type="text" id="last-name" name="last-name" placeholder="Last name">
+                <div class="address-input"
+                    style="display: flex; flex-direction: row; gap: 10px; margin-bottom: 20px; justify-content: center;">
+                    <input type="text" id="first-name" name="first-name" placeholder="First name"
+                        style="padding: 10px; width: 300px; border: 1px solid #ccc; border-radius: 5px;">
+                    <input type="text" id="last-name" name="last-name" placeholder="Last name"
+                        style="padding: 10px; width: 300px; border: 1px solid #ccc; border-radius: 5px;">
                 </div>
-                <button type="button" onclick="nextPage()">Continue</button>
-            </div>
 
-            <!-- page 11 -->
-            <div id="page11" class="page" style="display: none;">
-                <h4>Please provide your date of birth</h4>
-                <p>Your date of birth (DD/MM/YY)</p>
-                <div class="button-group" style="margin: 20px 0;">
-                    <input type="text" id="dob" name="dob" placeholder="DD/MM/YY" maxlength="8" class="input-text"
-                        style="width: 200px; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; text-align: center;">
-                </div>
-                <button type="button" class="btn btn-continue" onclick="nextPage()"
-                    style="background-color: #58bb41; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">Continue</button>
-            </div>
-
-            <!-- page 12 -->
-            <div id="page12" class="page" style="display: none;">
                 <h4>What email should we send information to?</h4>
-                <p>Email address</p>
-                <input type="text" id="email" class="input-text" placeholder="address@mail.com"
-                    oninput="validateEmail(this.value)">
+                <input type="email" id="email" class="input-text" name="email" placeholder="address@mail.com"
+                    style="padding: 10px; width: 300px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 10px;" required>
                 <p id="emailError" style="color: red; display: none;">Please enter a valid email address</p><br>
-                <button type="button" onclick="validateEmail()">Continue</button>
-            </div>
-            <!-- page 13 -->
-            <div id="page13" class="page" style="display: none; text-align: center;">
-                <h4>Last step, what's your phone number?</h4>
+
                 <p>We will only use your telephone number to contact you to confirm the details of your application or
                     provide status updates.</p>
                 <input type="tel" id="phone" name="phone" placeholder="Phone number"
                     style="padding: 10px; width: 300px; margin-bottom: 10px;" required>
-                <p id="phoneError" style="color: red; display: none;">Please enter a valid phone number (e.g., 0172 12
-                    34 56).</p>
+                <p id="phoneError" style="color: red; display: none;">Please enter a valid phone number (e.g., 0172 1234
+                    56).</p>
                 <br>
                 <label for="terms" style="margin-right: 10px;">
                     <input type="checkbox" id="terms" name="terms" required style="margin-right: 5px;">I agree to the
-                    terms and conditions and agree to being contacted with more information.
+                    <a href="Policies/terms-conditions.html">terms and conditions</a> and agree to being contacted with
+                    more information.
                 </label>
                 <p id="termsError" style="color: red; display: none;">Please agree to the terms and conditions.</p>
                 <br>
@@ -414,33 +274,22 @@
                     My Eligibility Now</button>
             </div>
 
-            <!-- page 14 -->
-            <div id="page14" class="page" style="display: none; text-align: center;">
-                <h4>Thanks! Next Steps...</h4>
-                <p>Thank you for completing our online application form registering interest in our ECO funding. A
-                    member of our team will contact you to confirm the details provided and arrange a Free no-obligation
-                    home survey and quotation as required by the scheme.</p>
-                <h3>Want To Speak Now?</h3>
-                <p style="font-size: 18px; color: #58bb41; margin-bottom: 20px;">0203 638 4030<br>(We're Open Mon-Fri
-                    9am-5pm)</p>
-            </div>
+            <!-- <div id="page8" class="page" style="display: none;">
+                <h4>What email should we send information to?</h4>
+                <p>Email address</p>
+                <input type="text" id="email" class="input-text" placeholder="address@mail.com"
+                    oninput="validateEmail(this.value)">
+                <p id="emailError" style="color: red; display: none;">Please enter a valid email address</p><br>
+                <button type="button" onclick="validateEmail()">Continue</button>
+            </div> -->
 
 
-
-
-            <!-- Page Submit -->
-            <div id="page15" class="page" style="display: none;">
-                <h2>Final Page</h2>
-                <textarea name="message" rows="10" placeholder="Message" required></textarea>
-                <br>
-                <button type="submit">Submit</button>
-            </div>
         </form>
     </div>
 
     <script>
         let currentPage = 1;
-        const totalPages = 15;
+        const totalPages = 6;
 
         function nextPage() {
             if (currentPage < totalPages) {
@@ -460,87 +309,76 @@
         // Initialize the progress bar on page load
         document.addEventListener('DOMContentLoaded', updateProgressBar);
 
-        document.getElementById('dob').addEventListener('input', function (e) {
-            let value = e.target.value.replace(/\D/g, ''); // Remove all non-digit characters
-            let formattedValue = '';
-            if (value.length > 2) {
-                formattedValue += value.substr(0, 2) + '/';
-                if (value.length > 4) {
-                    formattedValue += value.substr(2, 2) + '/';
-                    formattedValue += value.substr(4, 2);
-                } else {
-                    formattedValue += value.substr(2);
-                }
-            } else {
-                formattedValue = value;
-            }
-            e.target.value = formattedValue;
-        });
-
-        document.getElementById('dob').addEventListener('keydown', function (e) {
-            let key = e.key;
-            let value = e.target.value;
-            if (key === 'Backspace' && (value.endsWith('/') || value.length === 6)) {
-                e.target.value = value.slice(0, -1);
-            }
-        });
 
         function validateEmail(email) {
-            const emailInput = email || document.getElementById('email').value;
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            const isValid = emailPattern.test(emailInput);
-            const emailError = document.getElementById('emailError');
+            return emailPattern.test(email);
+        }
 
-            if (!isValid) {
-                emailError.style.display = 'block';
-            } else {
-                emailError.style.display = 'none';
-                nextPage(); // Move to the next page
-            }
+        function validatePhoneNumber(phoneNumber) {
+            const phonePattern = /^[0-9\s\-]+$/;  // Allows digits, spaces, and dashes
+            return phonePattern.test(phoneNumber);
         }
 
         function validateAgreement() {
-            const termsCheckbox = document.getElementById('terms');
+            return document.getElementById('terms').checked;
+        }
+
+        function submitForm() {
+            const email = document.getElementById('email').value;
+            const phoneNumber = document.getElementById('phone').value;
+            const termsChecked = validateAgreement();
+
+            const emailError = document.getElementById('emailError');
+            const phoneError = document.getElementById('phoneError');
             const termsError = document.getElementById('termsError');
 
-            if (!termsCheckbox.checked) {
-                termsError.style.display = 'block';
-            } else {
-                termsError.style.display = 'none';
-                nextPage();
-            }
-        }
-        function submitForm() {
-            // Validate phone number and agreement
-            var phoneNumber = document.getElementById('phone').value;
-            var termsChecked = document.getElementById('terms').checked;
+            let formIsValid = true;
 
-            if (!phoneNumber.match(/^\d{10}$/)) {
-                document.getElementById('phoneError').style.display = 'block';
-                return;
-            } 
-            else {
-                document.getElementById('phoneError').style.display = 'none';
+            if (!validateEmail(email)) {
+                emailError.style.display = 'block';
+                formIsValid = false;
+            } else {
+                emailError.style.display = 'none';
+            }
+
+            if (!validatePhoneNumber(phoneNumber)) {
+                phoneError.style.display = 'block';
+                formIsValid = false;
+            } else {
+                phoneError.style.display = 'none';
             }
 
             if (!termsChecked) {
-                document.getElementById('termsError').style.display = 'block';
-                return;
-            } 
-            else {
-                document.getElementById('termsError').style.display = 'none';
+                termsError.style.display = 'block';
+                formIsValid = false;
+            } else {
+                termsError.style.display = 'none';
             }
 
-            // Submit the form programmatically
-            document.getElementById('multipage-form').submit();
-
-            // Display page 14
-            document.getElementById('page13').style.display = 'none';
-            document.getElementById('page14').style.display = 'block';
+            if (formIsValid) {
+                // You should replace 'multipage-form' with the actual form ID or form submission logic
+                document.getElementById('multipage-form').submit();
+            }
         }
 
+        document.getElementById('email').addEventListener('input', function () {
+            if (validateEmail(this.value)) {
+                document.getElementById('emailError').style.display = 'none';
+            }
+        });
 
+        document.getElementById('phone').addEventListener('input', function () {
+            if (validatePhoneNumber(this.value)) {
+                document.getElementById('phoneError').style.display = 'none';
+            }
+        });
 
+        document.getElementById('terms').addEventListener('change', function () {
+            if (this.checked) {
+                document.getElementById('termsError').style.display = 'none';
+            }
+        });
 
     </script>
     <!-- ======= Footer ======= -->

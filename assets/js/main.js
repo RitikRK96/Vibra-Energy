@@ -284,3 +284,25 @@ const executeCodes = () => {
 
 //executeCodes function will be called on webpage load
 window.addEventListener("load", executeCodes);
+
+
+// Br in cta section
+
+function addBrForSmallScreens() {
+  const ctaText = document.getElementById('cta-text');
+  const screenWidth = window.innerWidth;
+
+  const existingBr = ctaText.querySelector('br');
+  if (existingBr) {
+      existingBr.remove();
+  }
+
+  if (screenWidth < 769) {
+      const br = document.createElement('br');
+      ctaText.appendChild(br);
+  }
+}
+
+addBrForSmallScreens();
+
+window.addEventListener('resize', addBrForSmallScreens);
