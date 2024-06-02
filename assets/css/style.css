@@ -104,7 +104,7 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 70px;
+  height: 80px;
 }
 
 #header.header-scrolled {
@@ -118,7 +118,6 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 #header .logo a {
@@ -162,7 +161,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #222222;
+  color: black;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -265,7 +264,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #222222;
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -797,6 +796,9 @@ section {
     align-items: center;
     justify-content: flex-end;
   }
+}
+.custom-cta img{
+  width: 250px;
 }
 
 /*--------------------------------------------------------------
