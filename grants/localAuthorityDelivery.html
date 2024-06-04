@@ -27,9 +27,10 @@
 
   <link href="../assets/css/style.css" rel="stylesheet">
   <style>
-    html{
+    html {
       overflow-x: hidden;
     }
+
     .hero-section {
       background-image: url('../assets/img/changes/grants.jpg');
       background-size: cover;
@@ -68,6 +69,57 @@
 
     .text-color {
       color: #06752E;
+    }
+
+    .custom-cta {
+      background: #1E3B70;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .custom-cta h2 {
+      color: #fff;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .custom-cta .custom-cta-btn {
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 1px;
+      padding: 10px 30px;
+      transition: background 0.5s, color 0.5s, border-color 0.5s;
+      margin: 10px;
+      border: 2px solid #fff;
+      color: #fff;
+      background: #58bb41;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .custom-cta .custom-cta-btn:hover {
+      background: #fff;
+      color: #58bb41;
+      border-color: #58bb41;
+    }
+
+    .custom-cta img {
+      width: 250px;
+      max-height: 70px;
+    }
+
+    @media (min-width: 769px) {
+      .custom-cta .text30 {
+        margin-left: 220px;
+        text-align: left;
+      }
+
+      .custom-cta .custom-cta-btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
     }
   </style>
 
@@ -142,131 +194,131 @@
   <main id="main">
 
 
-      <div class="container-fluid p-0">
+    <div class="container-fluid p-0">
+      <div class="row">
+        <div class="col-12 hero-section">
+          <div class="hero-content">
+            <h1 class="text-white display-2 font-weight-bold">
+              Grants | Local Authority Delivery L.A.D (ENDED)
+            </h1>
+            <p class="text-white">
+              The LAD Schemes aims to raise the energy efficiency of low income and low energy performance homes. The
+              focus is on properties with EPC ratings of D, E, F, and G.
+            </p>
+            <button class="btn btn-get-quote">Get Free Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <section id="custom-cta" class="custom-cta">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-2 text-center">
+              <img src="../assets/img/changes/vibra_original_logo.png" alt="Vibra-Energy" class="custom-logo">
+            </div>
+            <div class="col-md-4 text-md-left text30" id="cta-text">
+              <h2>Find Out If You Qualify For A FREE Grant In 30 Seconds...</h2>
+            </div>
+            <div class="col-md-3 text-center text-md-right custom-cta-btn-container">
+              <a href="../multipage_form.html" class="custom-cta-btn">CHECK MY ELIGIBILITY</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div>
+        <br />
+        <br />
+      </div>
+
+      <div class="container">
+
         <div class="row">
-          <div class="col-12 hero-section">
-            <div class="hero-content">
-              <h1 class="text-white display-2 font-weight-bold">
-                Grants | Local Authority Delivery L.A.D (ENDED)
-              </h1>
-              <p class="text-white">
-                The LAD Schemes aims to raise the energy efficiency of low income and low energy performance homes. The
-                focus is on properties with EPC ratings of D, E, F, and G.
+          <div class="col-md-6 animate_animated animate_fadeInRight"
+            style="animation-duration: 1s; animation-delay: 0.5s">
+            <div class="embed-responsive embed-responsive-16by9" style="animation: scaleIn 1s ease-in-out">
+              <img class="embed-responsive-item" src="../assets/img/residential-ome.jpg" alt="Image" />
+            </div>
+          </div>
+          <div class="col-md-6 animate_animated animate_fadeInLeft"
+            style="animation-duration: 1s; animation-delay: 0.5s">
+            <h1 class="display-4 font-weight-bold">
+              What Is LAD Scheme?
+            </h1>
+            <p class="text-justify">
+              The Local Authority Delivery (LAD) scheme is a government-funded initiative aimed at increasing the
+              energy efficiency of residential homes across the UK. The primary objective of this scheme is to help
+              reduce energy bills, improve comfort, and lower carbon emissions for households. It specifically targets
+              low-income and fuel-poor households, ensuring that those who need it most receive the benefits.
+            </p>
+            <p class="text-justify">
+              Overall, the LAD scheme is a vital component of the UK's strategy to create more sustainable and
+              energy-efficient housing, contributing to broader environmental and social goals.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <br />
+        <br />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 animate__animated animate__fadeInLeft"
+            style="animation-duration: 1s; animation-delay: 0.5s;">
+            <div><br>
+              <h1 class="display-4 font-weight-bold">Find Out If You're Eligible</h1>
+              <p>
+                You need to have an Energy Performance Certificate (EPC) rating of D, E, F, or G Households eligible
+                are those that have a combined annual income of £30,000 or less Tenants will be eligible for up to
+                £5000 worth of funding, with Landlords also contributing to costs
               </p>
-              <button class="btn btn-get-quote">Get Free Quote</button>
+
+            </div>
+          </div>
+          <div class="col-md-6 animate__animated animate__fadeInRight"
+            style="animation-duration: 1s; animation-delay: 0.5s;">
+
+            <div class="embed-responsive embed-responsive-16by9" style="animation: scaleIn 1s ease-in-out;">
+              <img class="embed-responsive-item" src="../assets/img/Find-out_lad.jpg" alt="Image">
             </div>
           </div>
         </div>
       </div>
+
       <div>
-        <section id="custom-cta" class="custom-cta">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-2 text-center">
-                <img src="../assets/img/changes/vibra_original_logo.png" alt="Vibra-Energy" class="custom-logo">
-              </div>
-              <div class="col-md-4 text-md-left text30" id="cta-text">
-                <h2>Find Out If You Qualify For A FREE Grant In 30 Seconds...</h2>
-              </div>
-              <div class="col-md-3 text-center text-md-right custom-cta-btn-container">
-                <a href="../multipage_form.html" class="custom-cta-btn">CHECK MY ELIGIBILITY</a>
-              </div>
+        <br />
+        <br />
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 animate_animated animate_fadeInRight"
+            style="animation-duration: 1s; animation-delay: 0.5s">
+            <div class="embed-responsive embed-responsive-16by9" style="animation: scaleIn 1s ease-in-out">
+              <img class="embed-responsive-item" src="../assets/img/lad-scheme.jpg" alt="Image" />
             </div>
           </div>
-        </section>
-        <div>
-          <br />
-          <br />
-        </div>
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-6 animate_animated animate_fadeInRight"
-              style="animation-duration: 1s; animation-delay: 0.5s">
-              <div class="embed-responsive embed-responsive-16by9" style="animation: scaleIn 1s ease-in-out">
-                <img class="embed-responsive-item" src="../assets/img/residential-ome.jpg" alt="Image" />
-              </div>
-            </div>
-            <div class="col-md-6 animate_animated animate_fadeInLeft"
-              style="animation-duration: 1s; animation-delay: 0.5s">
-              <h1 class="display-4 font-weight-bold">
-                What Is LAD Scheme?
-              </h1>
-              <p class="text-justify">
-                The Local Authority Delivery (LAD) scheme is a government-funded initiative aimed at increasing the
-                energy efficiency of residential homes across the UK. The primary objective of this scheme is to help
-                reduce energy bills, improve comfort, and lower carbon emissions for households. It specifically targets
-                low-income and fuel-poor households, ensuring that those who need it most receive the benefits.
-              </p>
-              <p class="text-justify">
-                Overall, the LAD scheme is a vital component of the UK's strategy to create more sustainable and
-                energy-efficient housing, contributing to broader environmental and social goals.
-              </p>
-
-            </div>
+          <div class="col-md-6 animate_animated animate_fadeInLeft"
+            style="animation-duration: 1s; animation-delay: 0.5s">
+            <h1 class="display-4 font-weight-bold">
+              Get Your LAD Scheme Now!
+            </h1>
+            <p class="text-justify">
+              £500 million funding is being allocated to local authorities through the Local Authority Delivery (LAD)
+              scheme, to improve the energy efficiency of homes of low-income households, helping reduce fuel poverty,
+              phasing out high carbon fossil fuel heating, and delivering progress towards the UK’s commitment to net
+              zero by 2050. This initiative not only enhances the living conditions of vulnerable households but also
+              contributes to significant reductions in greenhouse gas emissions. By upgrading insulation and heating
+              systems, the LAD scheme ensures warmer homes and lower energy bills. Don't miss out on this opportunity
+              to make your home more energy-efficient and environmentally friendly.
+            </p>
           </div>
         </div>
-
-        <div>
-          <br />
-          <br />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 animate__animated animate__fadeInLeft"
-              style="animation-duration: 1s; animation-delay: 0.5s;">
-              <div><br>
-                <h1 class="display-4 font-weight-bold">Find Out If You're Eligible</h1>
-                <p>
-                  You need to have an Energy Performance Certificate (EPC) rating of D, E, F, or G Households eligible
-                  are those that have a combined annual income of £30,000 or less Tenants will be eligible for up to
-                  £5000 worth of funding, with Landlords also contributing to costs
-                </p>
-
-              </div>
-            </div>
-            <div class="col-md-6 animate__animated animate__fadeInRight"
-              style="animation-duration: 1s; animation-delay: 0.5s;">
-
-              <div class="embed-responsive embed-responsive-16by9" style="animation: scaleIn 1s ease-in-out;">
-                <img class="embed-responsive-item" src="../assets/img/Find-out_lad.jpg" alt="Image">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <br />
-          <br />
-        </div>
-
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-6 animate_animated animate_fadeInRight"
-              style="animation-duration: 1s; animation-delay: 0.5s">
-              <div class="embed-responsive embed-responsive-16by9" style="animation: scaleIn 1s ease-in-out">
-                <img class="embed-responsive-item" src="../assets/img/lad-scheme.jpg" alt="Image" />
-              </div>
-            </div>
-            <div class="col-md-6 animate_animated animate_fadeInLeft"
-              style="animation-duration: 1s; animation-delay: 0.5s">
-              <h1 class="display-4 font-weight-bold">
-                Get Your LAD Scheme Now!
-              </h1>
-              <p class="text-justify">
-                £500 million funding is being allocated to local authorities through the Local Authority Delivery (LAD)
-                scheme, to improve the energy efficiency of homes of low-income households, helping reduce fuel poverty,
-                phasing out high carbon fossil fuel heating, and delivering progress towards the UK’s commitment to net
-                zero by 2050. This initiative not only enhances the living conditions of vulnerable households but also
-                contributes to significant reductions in greenhouse gas emissions. By upgrading insulation and heating
-                systems, the LAD scheme ensures warmer homes and lower energy bills. Don't miss out on this opportunity
-                to make your home more energy-efficient and environmentally friendly.
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
 
 
 
