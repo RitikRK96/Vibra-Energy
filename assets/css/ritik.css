@@ -22,3 +22,65 @@
   }
 }
 
+
+
+/* slider */
+
+.slider {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.slider .list {
+  display: flex;
+  gap: 30px;
+  animation: scroll 15s linear infinite;
+}
+
+.slider:hover .list {
+  animation-play-state: paused;
+}
+
+.slider .item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider .item img {
+  height: 80px;
+  width: auto;
+  max-width: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.slider .item img:hover {
+  filter: grayscale(0%);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .slider .item img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider .item img {
+    height: 50px;
+  }
+}
