@@ -55,13 +55,13 @@
   height: 80px;
   width: auto;
   max-width: 100%;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: filter 0.3s ease;
 }
 
-.slider .item img:hover {
+/* .slider .item img:hover {
   filter: grayscale(0%);
-}
+} */
 
 @keyframes scroll {
   0% {
